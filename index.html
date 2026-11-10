@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo del Cine Clásico Universal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <header id="site-header">
+        <div class="container header-container">
+            <a class="brand-title" href="#">CineClásico<span>.db</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a class="active" href="#hero">Inicio</a></li>
+                    <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#about">Historia</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="btn btn-secondary">Mi Colección</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="hero" class="hero-banner">
+        <div class="hero-content">
+            <span class="hero-tag">Archivo Histórico Cinematográfico</span>
+            <h1 class="hero-title">Grandes Obras Maestras del Séptimo Arte</h1>
+            <p class="hero-subtitle">
+                Una travesía visual por los filmes que definieron el lenguaje narrativo, la dirección de arte y la banda sonora de la historia del cine.
+            </p>
+            <p class="hero-description">
+                Desde el expresionismo mudo de los años 20 hasta la revolución del color y la ciencia ficción de culto. Explora fichas técnicas, géneros y calificaciones verificadas.
+            </p>
+            <div class="hero-buttons">
+                <a href="#catalog" class="btn btn-primary">Explorar Catálogo</a>
+                <a href="#about" class="btn btn-secondary">Saber Más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenido Principal / Catálogo -->
+    <main id="main-content">
+        <div style="margin-bottom: 2rem;">
+            <h2 class="section-title" style="font-size: 2rem; font-weight: bold;">Catálogo Principal de Películas</h2>
+            <p class="tagline" style="color: var(--text-muted);">Fichas de obras restauradas en alta definición</p>
+        </div>
+
+        <section class="catalog-grid">
+            <!-- Película 1: Casablanca -->
+            <article class="movie-card" data-genre="romance" data-rating="9.2" data-year="1942">
+                <div class="card-media" style="overflow: hidden; height: 280px; margin-bottom: 1rem;">
+                    <img src="images/images.jpeg" alt="Casablanca" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                </div>
+                <div class="card-body">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span class="genre-tag">Drama / Romance</span>
+                        <span class="rating-badge">★ 9.2</span>
+                    </div>
+                    <h3 style="font-size: 1.5rem; margin-top: 10px;">Casablanca</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Dirigida por <strong>Michael Curtiz</strong> (1942)</p>
+                    <p style="font-size: 0.95rem;">
+                        En el Marruecos de la Segunda Guerra Mundial, el propietario de un club nocturno debe decidir si ayuda a su antiguo amor y a su esposo a ponerse a salvo.
+                    </p>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                        <span style="color: var(--text-muted); font-size: 0.85rem;">102 min</span>
+                        <button class="btn btn-primary">Ver Ficha</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Película 2: Metrópolis -->
+            <article class="movie-card" data-genre="sci-fi" data-rating="8.3" data-year="1927">
+                <div class="card-media" style="overflow: hidden; height: 280px; margin-bottom: 1rem;">
+                    <img src="images/inte.jpg" alt="Metropolis" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                </div>
+                <div class="card-body">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span class="genre-tag">Sci-Fi / Silente</span>
+                        <span class="rating-badge">★ 8.3</span>
+                    </div>
+                    <h3 style="font-size: 1.5rem; margin-top: 10px;">Metrópolis</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Dirigida por <strong>Fritz Lang</strong> (1927)</p>
+                    <p style="font-size: 0.95rem;">
+                        En un futuro distópico dividido entre pensadores y trabajadores, el hijo del gobernante de la ciudad se enamora de una líder de la clase trabajadora.
+                    </p>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                        <span style="color: var(--text-muted); font-size: 0.85rem;">153 min</span>
+                        <button class="btn btn-primary">Ver Ficha</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Película 3: Ciudadano Kane -->
+            <article class="movie-card" data-genre="drama" data-rating="8.9" data-year="1941">
+                <div class="card-media" style="overflow: hidden; height: 280px; margin-bottom: 1rem;">
+                    <img src="images/kane.png" alt="Ciudadano Kane" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                </div>
+                <div class="card-body">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span class="genre-tag">Drama / Misterio</span>
+                        <span class="rating-badge">★ 8.9</span>
+                    </div>
+                    <h3 style="font-size: 1.5rem; margin-top: 10px;">Ciudadano Kane</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Dirigida por <strong>Orson Welles</strong> (1941)</p>
+                    <p style="font-size: 0.95rem;">
+                        Tras la muerte de un poderoso magnate de los medios de comunicación, un grupo de periodistas intenta descifrar el significado de sus últimas palabras: "Rosebud".
+                    </p>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                        <span style="color: var(--text-muted); font-size: 0.85rem;">119 min</span>
+                        <button class="btn btn-primary">Ver Ficha</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Película 4: 2001: Odisea del Espacio -->
+            <article class="movie-card" data-genre="sci-fi" data-rating="9.0" data-year="1968">
+                <div class="card-media" style="overflow: hidden; height: 280px; margin-bottom: 1rem;">
+                    <img src="images/2001.png" alt="2001 Odisea del Espacio" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                </div>
+                <div class="card-body">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span class="genre-tag">Sci-Fi / Filosófico</span>
+                        <span class="rating-badge">★ 9.0</span>
+                    </div>
+                    <h3 style="font-size: 1.5rem; margin-top: 10px;">2001: Odisea del Espacio</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Dirigida por <strong>Stanley Kubrick</strong> (1968)</p>
+                    <p style="font-size: 0.95rem;">
+                        Una enigmática estructura influye en la evolución humana antes de que una nave espacial sea enviada a Júpiter bajo el control de la inteligencia artificial HAL 9000.
+                    </p>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                        <span style="color: var(--text-muted); font-size: 0.85rem;">149 min</span>
+                        <button class="btn btn-primary">Ver Ficha</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer style="text-align: center; padding: 3rem 0; border-top: 1px solid var(--border); margin-top: 4rem;">
+        <p style="color: var(--text-muted);">&copy; 2026 Archivo del Cine Clásico. Práctica Académica.</p>
+    </footer>
+
+</body>
+</html>
